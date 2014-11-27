@@ -1,0 +1,43 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td {
+    margin:0;
+    border:0;
+    padding:0;
+}
+h1 {
+  font-size:2.25em;
+  line-height:1em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  letter-spacing:0.1em;
+  margin-left:50%;
+  text-align: right;
+}
+body {
+  font-family: 'EB Garamond', serif;
+  font-size:100%;
+  color: #6F447A;
+  line-height: 1.6em;
+  max-width:900px;
+  margin-left:25%;
+  margin-bottom:3%;
+}
+main > p::first-line {
+    font-variant: small-caps;   
+}
+main > p:first-child::first-letter {
+  float:left;
+  font-size:300%;
+  margin-top: 47px;
+  margin-right:3px;
+  color:#077508;
+}
+p {
+  font-size:1.25em;
+}
+main p {
+  padding-left:3em;
+  text-indent:-3em;
+}
+
+/*To Adjust font size dependent on viewport width */
+@media all {html {font-size: 18px;}}@media all and (max-width:720px){html {font-size: 17px;}}@media all and (max-width:680px){html {font-size: 16px;}}@media all and (max-width:640px){html {font-size: 15px;}}@media all and (max-width:600px){html {font-size: 14px;}}@media all and (max-width:560px){html {font-size: 13px;}}@media all and (max-width:520px){html {font-size: 12px;}}
